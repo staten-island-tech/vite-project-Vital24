@@ -9,3 +9,5 @@ npm install // could be npm i
 Do it once per computer
 
 npm run dev // open Website
+
+imgs            /(image).svg
