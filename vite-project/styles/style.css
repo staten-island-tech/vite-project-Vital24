@@ -9,12 +9,29 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* Custom Colors */
+  --black: #000;
+  --light-blue: #2998ff;
+  --dark-blue: #135cc5;
+  --dark-red: #dc2626;
+  --gray: #252c30;
+
+  --primary: var(--light-blue)
+  --second: var(--dark-blue)
+
+  /* // Typography */
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+  --h3: 3.375rem;
+  --h4: 22.25rem;
+  --h5: 1.5rem;
+
 }
 
 a {
@@ -30,19 +47,31 @@ a:hover {
   background-color: beige;
   height: 90vh;
 }
+
+.header-animation {
+  color: red;
+  background-color: purple;
+}
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  margin-top: 0;
+  font-size: 7.594rem;
 }
 
+h2 {font-size: 5.063rem;}
+
+h3 {font-size: 3.375rem;}
+
+h4 {font-size: 2.25rem;}
+
+h5 {font-size: 1.5rem;}
 #app {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
