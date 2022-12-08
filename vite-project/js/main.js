@@ -1,7 +1,7 @@
 import "../styles/style.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import { beef } from "./menu";
+
 import { data } from "./menu";
 import { DOM } from "./dom";
 // ..
@@ -19,9 +19,27 @@ const products = {
       .filter((el) => el.type.includes(`meat`))
       .forEach((el) => {
         console.log(el.name);
-        DOM.box.insertAdjacentHTML = `
-        <h1>${el.name}</h1>
-  `;
+        DOM.box.insertAdjacentHTML(
+          "afterbegin",
+          `<div>
+          <h1>${el.name}</h1>
+          </div>
+        `
+        );
+      });
+  },
+  getSushi: function () {
+    data
+      .filter((el) => el.type.includes(`sushi`))
+      .forEach((el) => {
+        console.log(el.name);
+        DOM.box.insertAdjacentHTML(
+          "afterbegin",
+          `<div>
+          <h1>${el.name}</h1>
+          </div>
+        `
+        );
       });
   },
 };
@@ -32,3 +50,4 @@ const products = {
 //   </div>
 // `;
 products.getMeat();
+products.getSushi();
