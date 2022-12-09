@@ -35,8 +35,9 @@ const products = {
         console.log(el.name);
         DOM.box.insertAdjacentHTML(
           "afterbegin",
-          `<div>
-          <h1>${el.name}</h1>
+          `<div class= "box">
+          <img src="${el.img}"/>
+            <h1>${el.name}</h1>
           </div>
         `
         );

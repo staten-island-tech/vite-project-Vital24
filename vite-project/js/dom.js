@@ -1,5 +1,5 @@
 const DOM = {
-  box: document.querySelector(".header-animation"),
+  box: document.querySelector(".products"),
   input: document.querySelectorAll(".text-box"),
 };
 
