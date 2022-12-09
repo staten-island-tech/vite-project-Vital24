@@ -44,6 +44,21 @@ const products = {
         );
       });
   },
+  getDrinks: function () {
+    data
+      .filter((el) => el.type.includes(`drinks`))
+      .forEach((el) => {
+        console.log(el.name);
+        DOM.box.insertAdjacentHTML(
+          "afterbegin",
+          `<div class= "stuff">
+          <img src="${el.img}"/>
+            <h1>${el.name}</h1>
+          </div>
+        `
+        );
+      });
+  },
 };
 
 // document.querySelector(".animation").innerHTML = `
@@ -53,3 +68,4 @@ const products = {
 // `;
 products.getMeat();
 products.getSushi();
+products.getDrinks();

@@ -56,32 +56,37 @@ const data = [
     img: "https://properfoodie.com/wp-content/uploads/2020/07/featured-dragon-roll-sushi-9.jpg",
   },
   {
-    name: "Dlg Roll",
+    name: "Manhattan",
     type: "drinks",
-    img: "https://www.cleaneatingmag.com/wp-content/uploads/2016/08/Beer-Marinated-Grilled-Flank-Steak-FEATURE.jpg?crop=1:1&width=1000",
+    img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/manhattan-1594301669.png?crop=1xw:1xh;center,top&resize=980:*",
   },
 
   {
-    name: "California Roll",
+    name: "French 76",
     type: "drinks",
-    img: "https://m.media-amazon.com/images/I/61GGkLruQuL.jpg",
+    img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/french-75-1594302212.png?crop=1xw:1xh;center,top&resize=980:*",
   },
 
   {
-    name: "Shrimp Tempura Roll",
+    name: "Bloody Mary",
     type: "drinks",
-    img: "https://norecipes.com/wp-content/uploads/2022/02/shrimp-tempura-roll-004.jpg",
+    img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bloody-mary-1594302099.png?crop=1xw:1xh;center,top&resize=980:*",
   },
 
   {
-    name: "Rainbow Roll",
+    name: "Negroni",
     type: "drinks",
-    img: "https://foreignfork.com/wp-content/uploads/2022/04/RainbowRollFEATURE.jpg",
+    img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/negroni-1594301841.png?crop=1xw:1xh;center,top&resize=980:*",
   },
   {
-    name: "Dragon Roll",
+    name: "Old Fashioned",
     type: "drinks",
-    img: "https://properfoodie.com/wp-content/uploads/2020/07/featured-dragon-roll-sushi-9.jpg",
+    img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/old-fashioned-1594301872.png?crop=1xw:1xh;center,top&resize=980:*",
+  },
+  {
+    name: "Whiskey Sour",
+    type: "drinks",
+    img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/whiskey-sour-1594301807.png?crop=1xw:1xh;center,top&resize=980:*",
   },
 ];
 
