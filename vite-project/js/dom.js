@@ -1,6 +1,5 @@
 const DOM = {
-  submit: document.querySelector("#form"),
-  box: document.querySelector(".animation"),
+  box: document.querySelector(".header-animation"),
   input: document.querySelectorAll(".text-box"),
 };
 
