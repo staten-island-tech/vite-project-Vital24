@@ -36,7 +36,7 @@ const data = [
   {
     name: "California Roll",
     type: "sushi",
-    img: "https://m.media-amazon.com/images/I/61GGkLruQuL.jpg",
+    img: "https://www.tasteofhome.com/wp-content/uploads/2018/01/California-Sushi-Rolls_exps142244_THHC2238742B09_21_20bC_RMS.jpg",
   },
 
   {
@@ -56,31 +56,31 @@ const data = [
     img: "https://properfoodie.com/wp-content/uploads/2020/07/featured-dragon-roll-sushi-9.jpg",
   },
   {
-    name: "Gimbap Roll",
-    type: "sushi",
+    name: "Dlg Roll",
+    type: "drinks",
     img: "https://www.cleaneatingmag.com/wp-content/uploads/2016/08/Beer-Marinated-Grilled-Flank-Steak-FEATURE.jpg?crop=1:1&width=1000",
   },
 
   {
     name: "California Roll",
-    type: "sushi",
+    type: "drinks",
     img: "https://m.media-amazon.com/images/I/61GGkLruQuL.jpg",
   },
 
   {
     name: "Shrimp Tempura Roll",
-    type: "sushi",
+    type: "drinks",
     img: "https://norecipes.com/wp-content/uploads/2022/02/shrimp-tempura-roll-004.jpg",
   },
 
   {
     name: "Rainbow Roll",
-    type: "sushi",
+    type: "drinks",
     img: "https://foreignfork.com/wp-content/uploads/2022/04/RainbowRollFEATURE.jpg",
   },
   {
     name: "Dragon Roll",
-    type: "sushi",
+    type: "drinks",
     img: "https://properfoodie.com/wp-content/uploads/2020/07/featured-dragon-roll-sushi-9.jpg",
   },
 ];
