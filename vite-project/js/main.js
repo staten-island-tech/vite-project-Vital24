@@ -6,15 +6,15 @@ import { data } from "./menu";
 import { DOM } from ".dom.js";
 // ..
 AOS.init();
-box: document.querySelector(".animation");
-data
-  .filter((el) => el.type.includes(`meat`))
-  .forEach((el) => {
-    console.log(el.name);
-    box.insertAdjacentHTML = `
-      <h1>${el.name}</h1>
-`;
-  });
+// box: document.querySelector(".animation");
+// data
+//   .filter((el) => el.type.includes(`meat`))
+//   .forEach((el) => {
+//     console.log(el.name);
+//     box.insertAdjacentHTML = `
+//       <h1>${el.name}</h1>
+// `;
+//   });
 
 // document.querySelector(".animation").innerHTML = `
 //   <div>
