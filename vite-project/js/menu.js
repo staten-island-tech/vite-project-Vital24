@@ -30,7 +30,7 @@ const data = [
   {
     name: "Gimbap Roll",
     type: "sushi",
-    img: "https://www.cleaneatingmag.com/wp-content/uploads/2016/08/Beer-Marinated-Grilled-Flank-Steak-FEATURE.jpg?crop=1:1&width=1000",
+    img: "image.png",
   },
 
   {
