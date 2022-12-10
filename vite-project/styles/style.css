@@ -17,10 +17,10 @@
 
   /* Custom Colors */
   --black: #000;
-  --light-blue: #2998ff;
-  --dark-blue: #135cc5;
-  --light-red: #f87171;
-  --dark-red: #dc2626;
+  --light-blue: #2998ff9c;
+  --dark-blue: #135cc59c;
+  --light-red: #f871719c;
+  --dark-red: #dc26269c;
   --gray: #252c30;
 
   /* Intentions  Themes */
@@ -60,23 +60,35 @@ body {
   width: 80vw;
   height: auto;
   margin: 1rem auto;
-
   align-items: center;
+
   
+}
+
+.dark {
+  --primary: var(--dark-blue);
+  --secondary: var(--light-blue)
+ }
+
+.light{
+  --primary: var(--dark-red);
+  --secondary: var(var(--light-red))
 }
 .Buttons { 
   display: flex;
-  
   width: 80vw;
   align-content: center;
 }
 .stuff, .Buttons {
+  color: var(--primary);
 
   justify-content: space-around;
   width: auto;
   align-self: center;
   margin: 2rem auto;
-  background-color: #1313139c;
+  background-color:  var(--secondary);
+
+  /* background-color: #1313139c; */
   border-width: 10rem;
   color: white;
   text-align: center;

@@ -28,9 +28,9 @@ const data = [
     img: "https://www.theflavorbender.com/wp-content/uploads/2018/04/Galbi-Korean-BBQ-Short-Ribs-Feat2.jpg",
   },
   {
-    name: "Gimbap Roll",
+    name: "Alaskan Roll",
     type: "sushi",
-    img: "image.png",
+    img: "http://www.blizzstatic.com/dynamicmedia/image/428/5f1b971c18eb9.jpg?w=1200&h=1200&zc=1",
   },
 
   {

@@ -78,7 +78,6 @@ DOM.ChangeToSushi.addEventListener("click", function () {
 
 DOM.ChangeToLiqour.addEventListener("click", function () {
   if (DOM.Typess.classList.contains("liquor")) {
-    console.log("poo");
   } else {
     DOM.box.innerHTML = "";
     DOM.Typess.classList.remove("sushi", "meat", "all");
@@ -89,7 +88,6 @@ DOM.ChangeToLiqour.addEventListener("click", function () {
 
 DOM.ChangeToMeats.addEventListener("click", function () {
   if (DOM.Typess.classList.contains("meat")) {
-    console.log("poo");
   } else {
     DOM.box.innerHTML = "";
     DOM.Typess.classList.remove("sushi", "liqour", "all");
@@ -97,5 +95,13 @@ DOM.ChangeToMeats.addEventListener("click", function () {
     products.getMeat();
   }
 });
+DOM.ThemeChange.addEventListener("click", function () {
+  if (DOM.Theme.classList.contains("dark")) {
+    DOM.Theme.classList.remove("dark");
+    DOM.Theme.classList.add("light");
+  } else {
+    DOM.Theme.classList.remove("light");
+    DOM.Theme.classList.add("dark");
+  }
+});
 products.getAll();
-l;
