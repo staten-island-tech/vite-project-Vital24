@@ -16,12 +16,12 @@
   -webkit-text-size-adjust: 100%;
 
   /* Custom Colors */
-  --black: #000;
+  --black: #0000009c;
   --light-blue: #2998ff9c;
   --dark-blue: #135cc59c;
   --light-red: #f871719c;
   --dark-red: #dc26269c;
-  --gray: #252c30;
+  --gray: #252c309c;
 
   /* Intentions  Themes */
   --primary: var(--light-red);
@@ -66,9 +66,9 @@ body {
 }
 
 .dark {
-  --primary: var(--dark-blue);
-  --secondary: var(--light-blue)
- }
+  --primary: var(--black);
+  --secondary: var(--gray)
+}
 
 .light{
   --primary: var(--dark-red);

@@ -95,7 +95,9 @@ DOM.ChangeToMeats.addEventListener("click", function () {
     products.getMeat();
   }
 });
-DOM.ThemeChange.addEventListener("click", function () {
+
+console.log(DOM.SwitchTheme);
+DOM.SwitchTheme.addEventListener("click", function () {
   if (DOM.Theme.classList.contains("dark")) {
     DOM.Theme.classList.remove("dark");
     DOM.Theme.classList.add("light");

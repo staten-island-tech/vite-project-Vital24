@@ -5,7 +5,7 @@ const DOM = {
   ChangeToSushi: document.querySelector(".ChangeSushi"),
   ChangeToAll: document.querySelector(".ChangeAll"),
   Typess: document.getElementById("Display"),
-  ThemeChange: document.querySelector("aaaaaa"),
+  SwitchTheme: document.querySelector(".Switch"),
   Theme: document.querySelector("body"),
 };
 
