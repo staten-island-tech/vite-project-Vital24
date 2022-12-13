@@ -101,9 +101,11 @@ DOM.SwitchTheme.addEventListener("click", function () {
   if (DOM.Theme.classList.contains("dark")) {
     DOM.Theme.classList.remove("dark");
     DOM.Theme.classList.add("light");
+    DOM.SwitchTheme.innerHTML = "Light";
   } else {
     DOM.Theme.classList.remove("light");
     DOM.Theme.classList.add("dark");
+    DOM.SwitchTheme.innerHTML = "Dark";
   }
 });
 products.getAll();
