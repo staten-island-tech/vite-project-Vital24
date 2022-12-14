@@ -38,7 +38,7 @@ const products = {
   getDrinks: function () {
     data
       .filter((el) => el.type.includes(`drinks`))
-      .forEach((el) => {
+      .map((el) => {
         DOM.box.insertAdjacentHTML(
           "afterbegin",
           `<div class= "stuff">
