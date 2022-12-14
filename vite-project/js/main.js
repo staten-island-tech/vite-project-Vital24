@@ -13,7 +13,7 @@ const products = {
       .forEach((el) => {
         DOM.box.insertAdjacentHTML(
           "afterbegin",
-          `<div class= "stuff">
+          `<div class= "PCards">
           <img src="${el.img}"/>
             <h1>${el.name}</h1>
           </div>
@@ -27,7 +27,7 @@ const products = {
       .forEach((el) => {
         DOM.box.insertAdjacentHTML(
           "afterbegin",
-          `<div class= "stuff">
+          `<div class= "PCards">
           <img src="${el.img}"/>
             <h1>${el.name}</h1>
           </div>
@@ -41,7 +41,7 @@ const products = {
       .map((el) => {
         DOM.box.insertAdjacentHTML(
           "afterbegin",
-          `<div class= "stuff">
+          `<div class= "PCards">
           <img src="${el.img}"/>
             <h1>${el.name}</h1>
           </div>
@@ -96,7 +96,6 @@ DOM.ChangeToMeats.addEventListener("click", function () {
   }
 });
 
-console.log(DOM.SwitchTheme);
 DOM.SwitchTheme.addEventListener("click", function () {
   if (DOM.Theme.classList.contains("dark")) {
     DOM.Theme.classList.remove("dark");
